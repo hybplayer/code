@@ -1290,6 +1290,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "TESTFUNC_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "D:/code/testFunc/lib/libtestFunc.a"
+		},
+		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[

@@ -41,70 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/code/build/
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target testFunc_shared
+# Object build statements for EXECUTABLE target main
 
 
 #############################################
-# Order-only phony target for testFunc_shared
+# Order-only phony target for main
 
-build cmake_object_order_depends_target_testFunc_shared: phony || CMakeFiles/testFunc_shared.dir
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 
-build CMakeFiles/testFunc_shared.dir/testFunc/testFunc.c.obj: C_COMPILER__testFunc_shared_Release D$:/code/testFunc/testFunc.c || cmake_object_order_depends_target_testFunc_shared
-  DEFINES = -DtestFunc_shared_EXPORTS
-  DEP_FILE = CMakeFiles\testFunc_shared.dir\testFunc\testFunc.c.obj.d
+build CMakeFiles/main.dir/src/main.c.obj: C_COMPILER__main_Release D$:/code/src/main.c || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\src\main.c.obj.d
   FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles\testFunc_shared.dir
-  OBJECT_FILE_DIR = CMakeFiles\testFunc_shared.dir\testFunc
+  INCLUDES = -ID:/code/testFunc/inc
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\src
 
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target testFunc_shared
+# Link build statements for EXECUTABLE target main
 
 
 #############################################
-# Link the shared library D:\code\lib\libtestFunc.dll
+# Link the executable D:\code\bin\main.exe
 
-build D$:/code/lib/libtestFunc.dll D$:/code/lib/libtestFunc.dll.a: C_SHARED_LIBRARY_LINKER__testFunc_shared_Release CMakeFiles/testFunc_shared.dir/testFunc/testFunc.c.obj
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\testFunc_shared.dir
+build D$:/code/bin/main.exe: C_EXECUTABLE_LINKER__main_Release CMakeFiles/main.dir/src/main.c.obj | D$:/code/testFunc/lib/libtestFunc.a
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = D:/code/testFunc/lib/libtestFunc.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  RESTAT = 1
-  TARGET_FILE = D:\code\lib\libtestFunc.dll
-  TARGET_IMPLIB = D:\code\lib\libtestFunc.dll.a
-  TARGET_PDB = testFunc.dll.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target testFunc_static
-
-
-#############################################
-# Order-only phony target for testFunc_static
-
-build cmake_object_order_depends_target_testFunc_static: phony || CMakeFiles/testFunc_static.dir
-
-build CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.obj: C_COMPILER__testFunc_static_Release D$:/code/testFunc/testFunc.c || cmake_object_order_depends_target_testFunc_static
-  DEP_FILE = CMakeFiles\testFunc_static.dir\testFunc\testFunc.c.obj.d
-  FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles\testFunc_static.dir
-  OBJECT_FILE_DIR = CMakeFiles\testFunc_static.dir\testFunc
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target testFunc_static
-
-
-#############################################
-# Link the static library D:\code\lib\libtestFunc.a
-
-build D$:/code/lib/libtestFunc.a: C_STATIC_LIBRARY_LINKER__testFunc_static_Release CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.obj
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles\testFunc_static.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = D:\code\lib\libtestFunc.a
-  TARGET_PDB = testFunc.a.dbg
+  TARGET_FILE = D:\code\bin\main.exe
+  TARGET_IMPLIB = D:\code\bin\libmain.dll.a
+  TARGET_PDB = main.exe.dbg
 
 
 #############################################
@@ -133,13 +101,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build libtestFunc.a: phony D$:/code/lib/libtestFunc.a
+build main: phony D$:/code/bin/main.exe
 
-build libtestFunc.dll: phony D$:/code/lib/libtestFunc.dll
-
-build testFunc_shared: phony D$:/code/lib/libtestFunc.dll
-
-build testFunc_static: phony D$:/code/lib/libtestFunc.a
+build main.exe: phony D$:/code/bin/main.exe
 
 # =============================================================================
 # Folder targets.
@@ -149,7 +113,7 @@ build testFunc_static: phony D$:/code/lib/libtestFunc.a
 #############################################
 # Folder: D:/code/build
 
-build all: phony D$:/code/lib/libtestFunc.dll D$:/code/lib/libtestFunc.a
+build all: phony D$:/code/bin/main.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

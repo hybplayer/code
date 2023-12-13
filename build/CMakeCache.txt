@@ -241,6 +241,9 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
 
+//Path to a library.
+TESTFUNC_LIB:FILEPATH=D:/code/testFunc/lib/libtestFunc.a
+
 //Value Computed by CMake
 demo_BINARY_DIR:STATIC=D:/code/build
 

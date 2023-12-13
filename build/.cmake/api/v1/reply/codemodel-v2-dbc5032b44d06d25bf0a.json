@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "demo",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,16 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "testFunc_shared::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testFunc_shared-Release-7c1842ab0018b75e8f16.json",
-					"name" : "testFunc_shared",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "testFunc_static::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testFunc_static-Release-1c43848ea606cb40651c.json",
-					"name" : "testFunc_static",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Release-bdb3304032dd2de4cb17.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]

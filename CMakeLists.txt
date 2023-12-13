@@ -2,12 +2,15 @@ cmake_minimum_required (VERSION 3.0)
 
 project (demo)
 
-set(SRC_LIST ${PROJECT_SOURCE_DIR}/testFunc/testFunc.c)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-add_library(testFunc_shared SHARED ${SRC_LIST})
-add_library(testFunc_static STATIC ${SRC_LIST})
+set(SRC_LIST ${PROJECT_SOURCE_DIR}/src/main.c)
 
-set_target_properties(testFunc_shared PROPERTIES OUTPUT_NAME "testFunc")
-set_target_properties(testFunc_static PROPERTIES OUTPUT_NAME "testFunc")
+# find testFunc.h
+include_directories(${PROJECT_SOURCE_DIR}/testFunc/inc)
 
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+find_library(TESTFUNC_LIB testFunc HINTS ${PROJECT_SOURCE_DIR}/testFunc/lib)
+
+add_executable(main ${SRC_LIST})
+
+target_link_libraries(main ${TESTFUNC_LIB})
