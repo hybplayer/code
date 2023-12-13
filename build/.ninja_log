@@ -1,0 +1,14 @@
+# ninja log v5
+2	69	7241841583550706	CMakeFiles/main.dir/main.obj	a6ad71d125bb006c
+10	83	7241866732512912	src/CMakeFiles/main.dir/testFunc.c.obj	6103c05f2a325a66
+11	73	7241841583581213	CMakeFiles/main.dir/testFunc.obj	c1bc07fa85178df2
+10	76	7241875147813572	CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.obj	e3c7357129d75300
+14	98	7241851644302133	CMakeFiles/main.dir/testFunc.c.obj	cf01e10ebd37246f
+24	109	7241851644419782	CMakeFiles/main.dir/testFunc1.c.obj	dbd4e4129502f670
+1	465	7241880909174604	build.ninja	e293699f2c3e330e
+1	78	7241866732479967	src/CMakeFiles/main.dir/main.c.obj	dc660184ca54d401
+20	92	7241866732624119	src/CMakeFiles/main.dir/testFunc1.c.obj	7bf5e007e07af29f
+2	90	7241867177747533	D:/code/bin/main.exe	78a5e2f221dc76ff
+1	91	7241875147747603	CMakeFiles/testFunc_shared.dir/testFunc/testFunc.c.obj	e7eddbd87f308249
+1	66	7241881065877542	CMakeFiles/main.dir/src/main.c.obj	d57722e7d5a74080
+67	149	7241881066717367	D:/code/bin/main.exe	1cdc47f3e037b16a

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/code/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -ID:/code/testFunc/inc -O3 -DNDEBUG -o CMakeFiles\\main.dir\\src\\main.c.obj -c D:\\code\\src\\main.c",
+  "file": "D:\\code\\src\\main.c"
+}
+]
