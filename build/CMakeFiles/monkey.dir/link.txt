@@ -1,3 +1,0 @@
-D:\cmake\bin\cmake.exe -E rm -f CMakeFiles\monkey.dir/objects.a
-D:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\monkey.dir/objects.a @CMakeFiles\monkey.dir\objects1.rsp
-D:\MinGW\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\monkey.dir/objects.a -Wl,--no-whole-archive -o monkey.exe -Wl,--out-implib,libmonkey.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\monkey.dir\linklibs.rsp
