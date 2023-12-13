@@ -2,9 +2,15 @@
 2	69	7241841583550706	CMakeFiles/main.dir/main.obj	a6ad71d125bb006c
 10	83	7241866732512912	src/CMakeFiles/main.dir/testFunc.c.obj	6103c05f2a325a66
 11	73	7241841583581213	CMakeFiles/main.dir/testFunc.obj	c1bc07fa85178df2
+91	182	7241875148852454	D:/code/bin/libtestFunc.dll.a	8b06ba07d5e09c81
+10	76	7241875147813572	CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.obj	e3c7357129d75300
 14	98	7241851644302133	CMakeFiles/main.dir/testFunc.c.obj	cf01e10ebd37246f
 24	109	7241851644419782	CMakeFiles/main.dir/testFunc1.c.obj	dbd4e4129502f670
-1	465	7241869814132879	build.ninja	e293699f2c3e330e
 1	78	7241866732479967	src/CMakeFiles/main.dir/main.c.obj	dc660184ca54d401
+1	465	7241875330014825	build.ninja	e293699f2c3e330e
 20	92	7241866732624119	src/CMakeFiles/main.dir/testFunc1.c.obj	7bf5e007e07af29f
 2	90	7241867177747533	D:/code/bin/main.exe	78a5e2f221dc76ff
+1	91	7241875147747603	CMakeFiles/testFunc_shared.dir/testFunc/testFunc.c.obj	e7eddbd87f308249
+91	182	7241875148852454	D:/code/bin/libtestFunc.dll	8b06ba07d5e09c81
+3	92	7241875345643846	D:/code/lib/libtestFunc.dll	7d43a38461df6011
+3	92	7241875345643846	D:/code/lib/libtestFunc.dll.a	7d43a38461df6011

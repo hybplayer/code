@@ -6,31 +6,17 @@
 			[
 				{
 					"build" : ".",
-					"childIndexes" : 
-					[
-						1
-					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "2.8"
+						"string" : "3.0"
 					},
 					"projectIndex" : 0,
-					"source" : "."
-				},
-				{
-					"build" : "src",
-					"jsonFile" : "directory-src-Release-c94b7c2814d5a21df52c.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "2.8"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "src",
+					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -40,23 +26,30 @@
 				{
 					"directoryIndexes" : 
 					[
-						0,
-						1
+						0
 					],
 					"name" : "demo",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "main::@145eef247bfb46b6828c",
-					"jsonFile" : "target-main-Release-b95a9b5fa33f01513dc8.json",
-					"name" : "main",
+					"directoryIndex" : 0,
+					"id" : "testFunc_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFunc_shared-Release-7c1842ab0018b75e8f16.json",
+					"name" : "testFunc_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testFunc_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFunc_static-Release-1c43848ea606cb40651c.json",
+					"name" : "testFunc_static",
 					"projectIndex" : 0
 				}
 			]

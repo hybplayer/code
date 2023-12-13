@@ -1,17 +1,12 @@
 [
 {
   "directory": "D:/code/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -ID:/code/src/../include -O3 -DNDEBUG -o src\\CMakeFiles\\main.dir\\main.c.obj -c D:\\code\\src\\main.c",
-  "file": "D:\\code\\src\\main.c"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DtestFunc_shared_EXPORTS -O3 -DNDEBUG -o CMakeFiles\\testFunc_shared.dir\\testFunc\\testFunc.c.obj -c D:\\code\\testFunc\\testFunc.c",
+  "file": "D:\\code\\testFunc\\testFunc.c"
 },
 {
   "directory": "D:/code/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -ID:/code/src/../include -O3 -DNDEBUG -o src\\CMakeFiles\\main.dir\\testFunc.c.obj -c D:\\code\\src\\testFunc.c",
-  "file": "D:\\code\\src\\testFunc.c"
-},
-{
-  "directory": "D:/code/build",
-  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -ID:/code/src/../include -O3 -DNDEBUG -o src\\CMakeFiles\\main.dir\\testFunc1.c.obj -c D:\\code\\src\\testFunc1.c",
-  "file": "D:\\code\\src\\testFunc1.c"
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -O3 -DNDEBUG -o CMakeFiles\\testFunc_static.dir\\testFunc\\testFunc.c.obj -c D:\\code\\testFunc\\testFunc.c",
+  "file": "D:\\code\\testFunc\\testFunc.c"
 }
 ]
