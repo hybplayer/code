@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "main.exe"
+			"path" : "D:/code/bin/main.exe"
 		},
 		{
-			"path" : "main.pdb"
+			"path" : "D:/code/bin/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 5,
+				"line" : 3,
 				"parent" : 0
 			}
 		]
@@ -52,21 +52,19 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/code/testfunc"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "D:/code/testfunc1"
+					"path" : "D:/code/src/../include"
 				}
 			],
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
-	"id" : "main::@6890427a1f51a3e7e1df",
+	"id" : "main::@145eef247bfb46b6828c",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -90,8 +88,8 @@
 	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "src",
+		"source" : "src"
 	},
 	"sourceGroups" : 
 	[
@@ -99,7 +97,9 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2
 			]
 		}
 	],
@@ -108,7 +108,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/testFunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/testFunc1.c",
 			"sourceGroupIndex" : 0
 		}
 	],

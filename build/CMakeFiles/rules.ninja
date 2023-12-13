@@ -12,6 +12,14 @@
 # =============================================================================
 
 #############################################
+# Rule for running custom commands.
+
+rule CUSTOM_COMMAND
+  command = $COMMAND
+  description = $DESC
+
+
+#############################################
 # Rule for compiling C files.
 
 rule C_COMPILER__main_Release
@@ -28,14 +36,6 @@ rule C_EXECUTABLE_LINKER__main_Release
   command = cmd.exe /C "$PRE_LINK && C:\PROGRA~1\LLVM\bin\clang.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
-
-
-#############################################
-# Rule for running custom commands.
-
-rule CUSTOM_COMMAND
-  command = $COMMAND
-  description = $DESC
 
 
 #############################################
