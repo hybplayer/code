@@ -1,0 +1,7 @@
+# ninja log v5
+2	69	7241841583550706	CMakeFiles/main.dir/main.obj	a6ad71d125bb006c
+2	92	7241851899117103	main.exe	77fb4840d8cc0aa8
+11	73	7241841583581213	CMakeFiles/main.dir/testFunc.obj	c1bc07fa85178df2
+3	86	7241851644172726	CMakeFiles/main.dir/main.c.obj	b0a2314b213add42
+14	98	7241851644302133	CMakeFiles/main.dir/testFunc.c.obj	cf01e10ebd37246f
+24	109	7241851644419782	CMakeFiles/main.dir/testFunc1.c.obj	dbd4e4129502f670

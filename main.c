@@ -1,7 +1,12 @@
 #include <stdio.h>
-int main(int argc, char **argv)
+
+#include "testFunc.h"
+#include "testFunc1.h"
+
+int main(void)
 {
-  int a = 0;
-  printf("hello world");
+  func(100);
+  func1(200);
+
   return 0;
 }
