@@ -1,4 +1,4 @@
-# Install script for directory: D:/code
+# Install script for directory: D:/code/c++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -106,5 +106,6 @@
     "typeindex": "cpp",
     "typeinfo": "cpp",
     "valarray": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "D:/code/c++"
 }
