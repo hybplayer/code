@@ -5,6 +5,13 @@
       "type": "java",
       "name": "hello",
       "request": "launch",
+      "mainClass": "hello",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
       "mainClass": "java.hello",
       "projectName": "code_72e5cfe6"
     },
