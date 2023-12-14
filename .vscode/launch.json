@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ManagerTest",
+      "request": "launch",
+      "mainClass": "inheritance.ManagerTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
       "name": "hello",
       "request": "launch",
       "mainClass": "hello",
