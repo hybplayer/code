@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CloneTest",
+      "request": "launch",
+      "mainClass": "clone.CloneTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "TimerTest",
+      "request": "launch",
+      "mainClass": "timer.TimerTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "EmployeeSortTest",
+      "request": "launch",
+      "mainClass": "interfaces.EmployeeSortTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "EnumTest",
+      "request": "launch",
+      "mainClass": "enums.EnumTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "PersonTest",
+      "request": "launch",
+      "mainClass": "abstractClasses.PersonTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListsTest",
+      "request": "launch",
+      "mainClass": "arrayList.ArrayListsTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "EqualsTest",
+      "request": "launch",
+      "mainClass": "equals.EqualsTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
       "name": "ManagerTest",
       "request": "launch",
       "mainClass": "inheritance.ManagerTest",

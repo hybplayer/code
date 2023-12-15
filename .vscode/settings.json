@@ -107,5 +107,6 @@
     "typeinfo": "cpp",
     "valarray": "cpp"
   },
-  "cmake.sourceDirectory": "D:/code/c++"
+  "cmake.sourceDirectory": "D:/code/c++",
+  "java.dependency.syncWithFolderExplorer": false
 }
