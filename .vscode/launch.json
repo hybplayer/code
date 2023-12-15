@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayListsTest",
+      "request": "launch",
+      "mainClass": "arrayList.ArrayListsTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
       "name": "EqualsTest",
       "request": "launch",
       "mainClass": "equals.EqualsTest",
