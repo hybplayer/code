@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PersonTest",
+      "request": "launch",
+      "mainClass": "abstractClasses.PersonTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
       "name": "ArrayListsTest",
       "request": "launch",
       "mainClass": "arrayList.ArrayListsTest",
