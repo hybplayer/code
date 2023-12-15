@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CloneTest",
+      "request": "launch",
+      "mainClass": "clone.CloneTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
+      "name": "TimerTest",
+      "request": "launch",
+      "mainClass": "timer.TimerTest",
+      "projectName": "code_72e5cfe6"
+    },
+    {
+      "type": "java",
       "name": "EmployeeSortTest",
       "request": "launch",
       "mainClass": "interfaces.EmployeeSortTest",
