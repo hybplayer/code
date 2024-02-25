@@ -1,0 +1,5 @@
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+javac -cp ".;./com/hyb/log/commons-logging1.3.0.jar" ./com/hyb/log/Mylog.java
+
+java -cp ".;.\com\hyb\log\commons-logging-1.3.0.jar;.\com\hyb\log\log4j-api-2.23.0.jar;.\com\hyb\log\log4j-core-2.23.0.jar;.\com\hyb\log\log4j-jcl-2.23.0.jar;.\com\hyb\log" com.hyb.log.Mylog
