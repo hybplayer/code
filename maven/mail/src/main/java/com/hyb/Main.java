@@ -4,6 +4,9 @@ import jakarta.mail.*;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
 
+import javax.tools.JavaCompiler;
+import java.rmi.Remote;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.Properties;
 
 /**
@@ -49,5 +52,6 @@ public class Main {
         while (true) {
             Transport.send(message);
         }
+
     }
 }
